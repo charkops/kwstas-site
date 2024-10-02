@@ -11,42 +11,67 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
+<style>
+  * {
+      font-family: jura;
+      text-align:center
+  }
 
+body {
+  background-image: url('Logo_Filwn.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+.row.my-5 {
+  margin: auto;
+  width: 100%;
+  
+  padding: 400px 0;
+  }
+
+  </style>
 <body>
 
-  <div class="container-fluid bg-image"
-    style="background-image: url('https://mdbootstrap.com/img/Photos/Others/images/76.jpg'); height: 100vh">
+        <!-- Navbar -->
+        <div class="row">
+          <div class="col">
+            <nav class="navbar background-position:fixed; top:0">
+    
+              <a class="navbar-brand" href="index.html">Παρουσίαση</a>
+    
+              <a class="navbar-brand" href="pdf-1.html">Σύνοψη χρηματοδοτικής πρότασης</a>
+    
+              <a class="navbar-brand" href="pdf-2.html">Ανάλυση χρηματοδοτικής πρότασης</a>
+    
+              <a class="navbar-brand" href="contact.html">Επικοινωνία</a>
+    
+            </nav>
+          </div>
+        </div>
+   
 
-    <!-- Navbar -->
-    <div class="row">
-      <div class="col">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light p-4 justify-content-between">
+        <!-- <img src="Logo_Filwn.jpg" alt="Nature" class="center" background-attachment="fixed" > -->
 
-          <a class="navbar-brand" href="index.html">Home</a>
-
-          <a class="navbar-brand" href="pdf-1.html">PDF-1</a>
-
-          <a class="navbar-brand" href="pdf-2.html">PDF-2</a>
-
-          <a class="navbar-brand" href="contact.html">Contact</a>
-
-        </nav>
-      </div>
-    </div>
 
 
     <div class="container">
 
+
       <div class="row my-5">
         <div class="col">
-          <h1>Τίτλος</h1>
+          <h2 style="font-family:jura;" style="text-align:center"><b>ΑΙΤΗΣΗ ΧΡΗΜΑΤΟΔΟΤΗΣΗΣ ΕΡΕΥΝΗΤΙΚΟΥ ΠΡΟΓΡΑΜΜΑΤΟΣ: <br><br>"ΤΕΧΝΗ, ΕΡΓΑΛΕΙΟ ΕΠΑΝΕΝΤΑΞΗΣ ΣΕ ΕΚΠΑΙΔΕΥΤΙΚΕΣ ΜΟΝΑΔΕΣ ΦΥΛΑΚΩΝ</b>"
+          </h2>
         </div>
-
+      </div>
         <!-- PDF Embedding -->
-        <div class="" style="height: 60em;">
+        <div class="" style="height: 50em;">
 
-          <iframe src="sample.pdf" width="100%" height="100%"></iframe>
+          <iframe src="ΑΝΑΛΥΣΗ ΧΡΗΜΑΤΟΔΟΤΙΚΗΣ ΠΡΟΤΑΣΗΣ 250924.pdf" width="100%" height="100%"></iframe>
 
         </div>
 

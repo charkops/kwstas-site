@@ -1,0 +1,25 @@
+/* styles.css */ 
+ 
+body { 
+    margin: 0; 
+    font-family: jura; 
+} 
+ 
+.navbar { 
+    background-color: #353535; 
+    overflow: hidden; 
+    position: fixed; /* Make it sticky */ 
+    top: 0; /* Stick to the top */ 
+    width: 100%; /* Full width */ 
+    z-index: 1000; /* Ensure it stays on top of other content */ 
+} 
+ 
+.navbar a { 
+    float: left; /* Align links to the left */ 
+    display: block; /* Make links block elements */ 
+    color: white; /* Text color */ 
+    text-align: center; /* Center the text */ 
+    padding: 14px 16px; /* Padding */ 
+    text-decoration: none; /* Remove underline */ 
+} 
+ 
